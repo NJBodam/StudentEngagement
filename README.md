@@ -11,7 +11,8 @@ The primary goal of this analysis is to compare the first-week engagement metric
 3. `project_submissions.csv`: Contains records of student project submissions and assigned ratings.
 
 ## Key Steps in the Analysis
-###1. Data Loading and Cleaning* **Loading:** Data is loaded from CSV files into Python lists of dictionaries using `csv.DictReader`.
+###1. Data Loading and Cleaning* 
+**Loading:** Data is loaded from CSV files into Python lists of dictionaries using `csv.DictReader`.
 * **Data Type Fixing:** Custom functions (`parse_date`, `parse_maybe_int`) are used to convert string representations of dates, integers, and booleans into proper Python types (`datetime`, `int`, `float`, `bool`) across all three datasets.
 * **Consistency:** The key field in `daily_engagement` is renamed from `'acct'` to `'account_key'` for consistency.
 
